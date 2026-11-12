@@ -1,6 +1,6 @@
 # Shared governance demo 🌱
 
-**Version 1** · Example policy, not real organisational governance.
+**Version 2** · Example policy, not real organisational governance.
 
 One shared Git repository, reused by applications as a **pinned submodule**.
 The app chooses a particular commit; edits here do not silently change its policy.
@@ -26,3 +26,9 @@ not a tag name or a moving branch. Do not move released tags.
 
 In a real organisation, protect this repository's main branch and require owners
 to review policy changes. Keep enforcement in CI as well as readable policy docs.
+
+## Review checklist
+
+- [ ] Tests pass.
+- [ ] Changes have been reviewed.
+- [ ] No secrets or personal data are included.
